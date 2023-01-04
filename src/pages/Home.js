@@ -1,5 +1,4 @@
 import React from "react";
-import Map from "../components/map";
 import Top from "../components/Top";
 import Map2 from "../components/map2";
 import { JamaicaMap } from "../components/map2";
@@ -12,7 +11,7 @@ const Home=()=>{
             <Top/>  
             <div className="map-bar">
                 <JamaicaMap/>
-                <SideSearch/>
+                {/* <SideSearch/> */}
             </div>
            
 
